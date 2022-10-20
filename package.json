@@ -1,0 +1,27 @@
+{
+    "name": "sideguide-theme",
+    "displayName": "SideGuide Theme",
+    "description": "SideGuide Theme is a theme create by SideGuide + FlutterGuide for video tutorials.",
+    "publisher": "Flutterbricksproductions",
+    "version": "0.0.2",
+    "icon":"sideguide-theme-logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sideguide/sideguide-theme.git"
+    },
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "SideGuide Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/SideGuide Theme-color-theme.json"
+            }
+        ]
+    }
+}
